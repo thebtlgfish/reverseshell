@@ -1,41 +1,26 @@
 
 # Fake Reverse Shell
 
-A shell script that appears to be a legit program that is acctually a reverse shell in disguise.
+A shell script that appears to be a legit program that is acctually a reverse shell in disguise. 
 
 
 ## Authors
 
 - [@BootlegFish](https://www.github.com/thebtlgfish)
 
+## Prerequisites
+- must have bash shell
+- must have netcat installed on both attackers and users system
 
 ## Installation
 
-First Install The Actual Script
-
-```bash
-  git clone https://github.com/thebtlgfish/reverseshell.git
-```
-Change In To The Reverse Shell Directory
-
-```bash
-    cd reverseshell
-```
-Check if the script is there
-
-```bash
-    ls
-```
-
-next edit the script. (i will use nano)
-
-```bash
-    nano reverseshell.sh
-```
+- clone the script with git
+- go into the reverseshell directory
+- uncomment the payload and enter your ip into the right spot
+- edit the code inside of the program function to make the program seem as legit as possible
+- your payload is ready to be used!
 
 
-
-    
 ## Things To Note
 
-When you download the script you should not run it on your own computer. This script should be run on the victims computer. 
+This is intended for educational use only. Only use this with explicit permission
